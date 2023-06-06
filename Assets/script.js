@@ -1,0 +1,23 @@
+var API = c8101f93bf91b0a57b027b2fab9e248b;
+var city;
+var lat;
+var lon;
+var cityList = $(".searchCity");
+var cityInfo = $(".cityInfo");
+var cityName = $(".cityName");
+var cityTemp = $(".cityTemp");
+var cityWind = $(".cityWind");
+var cityIcon = $(".cityIcon");
+var cityDescription = $(".cityDescription");
+var cityHuminity = $(".cityHuminity");
+var userInput = $(".form-control");
+var forecastHeader = $(".forecastHeader");
+var forecastCard = $(".forecastCard");
+var Day1 = $("#day1");
+var Day2 = $("#day2");
+var Day3 = $("#day3");
+var Day4 = $("#day4");
+var Day5 = $("#day5");
+var searchBtn = $(".btn");
+var savedCityCount = 0;
+

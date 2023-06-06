@@ -1,0 +1,54 @@
+<!DOCTYPE <html>
+    <head>
+        <title>Weather Dashboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href=".Assets/style.css">
+    </head>
+    <body>
+        <header><h1>Weather Dashboard</h1></header>
+        <main>
+            <section class="searchCity">
+                <div class="searchbar">
+                    <h2>Search for a City's Forecast:</h2>
+                    <form action="searchform">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control" placeholder="Enter City Name">
+                        </div>
+                        <div class="searchBtn">
+                            <button type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="recCities">
+                    <ul class="cityList">
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="cityInfo">
+                <div class="cityName"></div>
+                <div class="cityTemp"></div>
+                <div class="cityWind"></div>
+                <div class="cityIcon"></div>
+                <div class="cityDescription"></div>
+                <div class="cityHuminity"></div>
+            </section>
+            <section class="cityForecast">
+                <h1 class="forecastHeader">5-Day Forecast</h1>
+                <div class="5-DayForecast">
+                    <div class="forecastCard" id="day1">
+                        <h1 class="date1"></h1>
+                        <div class="icon1"></div>
+                        <div class="maxTemp1"></div>
+                        <div class="minTempt1"></div>
+                        <div class="wind1"></div>
+                        <div class="humidity1"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>
