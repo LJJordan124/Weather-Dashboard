@@ -17,4 +17,4 @@ There was a lot of ideas I could've done style-wise, however I put my majority o
 
 ## Deployed Application
 
-https://ljjordan124.github.io/
+https://ljjordan124.github.io/Weather-Dashboard/index.html
